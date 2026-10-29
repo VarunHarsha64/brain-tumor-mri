@@ -1,0 +1,24 @@
+# Core deep learning
+torch>=2.3
+torchvision>=0.18
+
+# Data / metrics / plots
+numpy
+pandas
+scikit-learn
+matplotlib
+pillow
+opencv-python-headless
+tqdm
+
+# Dashboard
+streamlit>=1.35
+streamlit-webrtc>=0.47   # live webcam video (optional: dashboard still works without it)
+av                       # needed by streamlit-webrtc
+
+# Fast CPU inference (optional but recommended)
+onnx
+onnxruntime
+
+# Only needed for scripts/download_data.py (or download manually from the Kaggle website)
+kaggle
